@@ -26,7 +26,6 @@ import java.util.List;
 
 /**
  * Home screen of the Smart Pantry Manager.
- *
  * Displays all pantry ingredients in a RecyclerView sorted alphabetically.
  * Users can:
  * <ul>
@@ -40,6 +39,8 @@ import java.util.List;
  *
  * @author Smart Pantry Manager
  */
+
+//Smart Pantry - CRUD implementation added
 public class MainActivity extends AppCompatActivity
         implements IngredientAdapter.OnItemClickListener {
 
@@ -57,6 +58,8 @@ public class MainActivity extends AppCompatActivity
             });
 
     @Override
+    // Smart Pantry - CRUD implementation added
+    //Checking expiry dates on app start
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
