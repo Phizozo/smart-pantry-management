@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 /**
  * SQLiteOpenHelper subclass that creates and upgrades the Smart Pantry database.
- *
+
  * Database schema (3 tables):
  * <ul>
  *   <li><b>pantry</b> – user-entered ingredients (id, name, quantity, unit, expiry_date)</li>
@@ -62,6 +62,7 @@ public class PantryDbHelper extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
+     // Added CRUD for pantry items
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE " + TABLE_PANTRY + " ("
