@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2E7D32</color>
+    <color name="primary_dark">#1B5E20</color>
+    <color name="accent">#E65100</color>
+    <color name="background">#F7F7F2</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#6B6B6B</color>
+    <color name="error">#C62828</color>
+    <color name="badge_almost">#FFF3E0</color>
+    <color name="badge_almost_text">#E65100</color>
+    <color name="white">#FFFFFF</color>
+</resources>

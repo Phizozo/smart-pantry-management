@@ -1,0 +1,20 @@
+<resources>
+    <!-- Primary palette: green tones (pantry / food theme) -->
+    <color name="primary">#2E7D32</color>
+    <color name="primary_dark">#1B5E20</color>
+    <color name="primary_light">#E8F5E9</color>
+    <color name="accent">#FF8F00</color>
+    <color name="accent_dark">#E65100</color>
+
+    <!-- Text colours -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Semantic colours -->
+    <color name="expiry_warning">#E65100</color>
+    <color name="success">#43A047</color>
+    <color name="background">#FAFAFA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+</resources>

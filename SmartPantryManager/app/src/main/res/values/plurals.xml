@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ingredient_count">
+        <item quantity="one">%d ingredient</item>
+        <item quantity="other">%d ingredients</item>
+    </plurals>
+    <plurals name="expiring_soon_banner">
+        <item quantity="one">%d ingredient is expiring within 3 days</item>
+        <item quantity="other">%d ingredients are expiring within 3 days</item>
+    </plurals>
+</resources>
